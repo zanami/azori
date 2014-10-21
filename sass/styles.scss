@@ -1,3 +1,25 @@
 @import "bootstrap-compass";
 @import "bootstrap-variables";
 @import "bootstrap";
+
+
+.menu-block-wrapper {margin-top:20px;}
+
+.navbar-nav {
+	.active-trail {@extend .active;}
+}
+
+.nav {
+	.active, .active-trail {@extend .active;}
+}
+
+// gallery stuff
+.field-image-gallry {
+	// colorbox flavor
+	display:inline;
+	.colorbox { float:left; margin: 0 0 $line-height-computed $line-height-computed;}
+}
+
+// hide h1 from section content
+
+.node-type-section-content .page-header {display:none;}

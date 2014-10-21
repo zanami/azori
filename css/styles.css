@@ -1410,7 +1410,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
-  background-color: white;
+  background-color: #efefef;
 }
 
 /* line 39, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1425,12 +1425,12 @@ textarea {
 
 /* line 48, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #428bca;
+  color: #ca5b42;
   text-decoration: none;
 }
 /* line 53, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #2a6496;
+  color: #963e2a;
   text-decoration: underline;
 }
 /* line 58, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1467,7 +1467,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: white;
+  background-color: #efefef;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1696,12 +1696,12 @@ mark,
 
 /* line 5, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #428bca;
+  color: #ca5b42;
 }
 
 /* line 8, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover {
-  color: #3071a9;
+  color: #a94630;
 }
 
 /* line 5, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
@@ -1751,12 +1751,12 @@ a.text-danger:hover {
 
 /* line 5, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #428bca;
+  background-color: #ca5b42;
 }
 
 /* line 8, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover {
-  background-color: #3071a9;
+  background-color: #a94630;
 }
 
 /* line 5, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
@@ -3197,7 +3197,7 @@ th {
 }
 /* line 56, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
 .table .table {
-  background-color: white;
+  background-color: #efefef;
 }
 
 /* line 70, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
@@ -3257,22 +3257,42 @@ table th[class*="col-"] {
 }
 
 /* line 12, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.active,
-.table > thead > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th,
+.table > thead > tr > td.active, .navbar-nav .table > thead > tr > td.active-trail, .nav .table > thead > tr > td.active-trail,
+.table > thead > tr > th.active,
+.navbar-nav .table > thead > tr > th.active-trail,
+.nav .table > thead > tr > th.active-trail, .table > thead > tr.active > td, .navbar-nav .table > thead > tr.active-trail > td, .nav .table > thead > tr.active-trail > td, .table > thead > tr.active > th, .navbar-nav .table > thead > tr.active-trail > th, .nav .table > thead > tr.active-trail > th,
 .table > tbody > tr > td.active,
+.navbar-nav .table > tbody > tr > td.active-trail,
+.nav .table > tbody > tr > td.active-trail,
 .table > tbody > tr > th.active,
+.navbar-nav .table > tbody > tr > th.active-trail,
+.nav .table > tbody > tr > th.active-trail,
 .table > tbody > tr.active > td,
+.navbar-nav .table > tbody > tr.active-trail > td,
+.nav .table > tbody > tr.active-trail > td,
 .table > tbody > tr.active > th,
+.navbar-nav .table > tbody > tr.active-trail > th,
+.nav .table > tbody > tr.active-trail > th,
 .table > tfoot > tr > td.active,
+.navbar-nav .table > tfoot > tr > td.active-trail,
+.nav .table > tfoot > tr > td.active-trail,
 .table > tfoot > tr > th.active,
+.navbar-nav .table > tfoot > tr > th.active-trail,
+.nav .table > tfoot > tr > th.active-trail,
 .table > tfoot > tr.active > td,
-.table > tfoot > tr.active > th {
+.navbar-nav .table > tfoot > tr.active-trail > td,
+.nav .table > tfoot > tr.active-trail > td,
+.table > tfoot > tr.active > th,
+.navbar-nav .table > tfoot > tr.active-trail > th,
+.nav .table > tfoot > tr.active-trail > th {
   background-color: whitesmoke;
 }
 
 /* line 24, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.active:hover,
-.table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
+.table-hover > tbody > tr > td.active:hover, .navbar-nav .table-hover > tbody > tr > td.active-trail:hover, .nav .table-hover > tbody > tr > td.active-trail:hover,
+.table-hover > tbody > tr > th.active:hover,
+.navbar-nav .table-hover > tbody > tr > th.active-trail:hover,
+.nav .table-hover > tbody > tr > th.active-trail:hover, .table-hover > tbody > tr.active:hover > td, .navbar-nav .table-hover > tbody > tr.active-trail:hover > td, .nav .table-hover > tbody > tr.active-trail:hover > td, .table-hover > tbody > tr:hover > .active, .navbar-nav .table-hover > tbody > tr:hover > .active-trail, .nav .table-hover > tbody > tr:hover > .active-trail, .table-hover > tbody > tr.active:hover > th, .navbar-nav .table-hover > tbody > tr.active-trail:hover > th, .nav .table-hover > tbody > tr.active-trail:hover > th {
   background-color: #e8e8e8;
 }
 
@@ -4041,7 +4061,7 @@ select[multiple].input-lg,
   user-select: none;
 }
 /* line 25, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
-.btn:focus, .btn:active:focus, .btn.active:focus {
+.btn:focus, .btn:active:focus, .btn.active:focus, .navbar-nav .btn.active-trail:focus, .nav .btn.active-trail:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -4052,7 +4072,7 @@ select[multiple].input-lg,
   text-decoration: none;
 }
 /* line 37, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
-.btn:active, .btn.active {
+.btn:active, .btn.active, .navbar-nav .btn.active-trail, .nav .btn.active-trail {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
@@ -4075,17 +4095,17 @@ select[multiple].input-lg,
   border-color: #cccccc;
 }
 /* line 15, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .navbar-nav .btn-default.active-trail, .nav .btn-default.active-trail, .open > .btn-default.dropdown-toggle {
   color: #333333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
 /* line 22, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+.btn-default:active, .btn-default.active, .navbar-nav .btn-default.active-trail, .nav .btn-default.active-trail, .open > .btn-default.dropdown-toggle {
   background-image: none;
 }
 /* line 32, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
+.btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .navbar-nav .btn-default.disabled.active-trail, .nav .btn-default.disabled.active-trail, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, .navbar-nav .btn-default[disabled].active-trail, .nav .btn-default[disabled].active-trail, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active, fieldset[disabled] .navbar-nav .btn-default.active-trail, .navbar-nav fieldset[disabled] .btn-default.active-trail, fieldset[disabled] .nav .btn-default.active-trail, .nav fieldset[disabled] .btn-default.active-trail {
   background-color: white;
   border-color: #cccccc;
 }
@@ -4098,27 +4118,27 @@ select[multiple].input-lg,
 /* line 60, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: white;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #ca5b42;
+  border-color: #bd4e35;
 }
 /* line 15, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .navbar-nav .btn-primary.active-trail, .nav .btn-primary.active-trail, .open > .btn-primary.dropdown-toggle {
   color: white;
-  background-color: #3071a9;
-  border-color: #285e8e;
+  background-color: #a94630;
+  border-color: #8e3a28;
 }
 /* line 22, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+.btn-primary:active, .btn-primary.active, .navbar-nav .btn-primary.active-trail, .nav .btn-primary.active-trail, .open > .btn-primary.dropdown-toggle {
   background-image: none;
 }
 /* line 32, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #428bca;
-  border-color: #357ebd;
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .navbar-nav .btn-primary.disabled.active-trail, .nav .btn-primary.disabled.active-trail, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, .navbar-nav .btn-primary[disabled].active-trail, .nav .btn-primary[disabled].active-trail, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active, fieldset[disabled] .navbar-nav .btn-primary.active-trail, .navbar-nav fieldset[disabled] .btn-primary.active-trail, fieldset[disabled] .nav .btn-primary.active-trail, .nav fieldset[disabled] .btn-primary.active-trail {
+  background-color: #ca5b42;
+  border-color: #bd4e35;
 }
 /* line 38, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge {
-  color: #428bca;
+  color: #ca5b42;
   background-color: white;
 }
 
@@ -4129,17 +4149,17 @@ select[multiple].input-lg,
   border-color: #4cae4c;
 }
 /* line 15, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .navbar-nav .btn-success.active-trail, .nav .btn-success.active-trail, .open > .btn-success.dropdown-toggle {
   color: white;
   background-color: #449d44;
   border-color: #398439;
 }
 /* line 22, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
+.btn-success:active, .btn-success.active, .navbar-nav .btn-success.active-trail, .nav .btn-success.active-trail, .open > .btn-success.dropdown-toggle {
   background-image: none;
 }
 /* line 32, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
+.btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .navbar-nav .btn-success.disabled.active-trail, .nav .btn-success.disabled.active-trail, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, .navbar-nav .btn-success[disabled].active-trail, .nav .btn-success[disabled].active-trail, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active, fieldset[disabled] .navbar-nav .btn-success.active-trail, .navbar-nav fieldset[disabled] .btn-success.active-trail, fieldset[disabled] .nav .btn-success.active-trail, .nav fieldset[disabled] .btn-success.active-trail {
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
@@ -4156,17 +4176,17 @@ select[multiple].input-lg,
   border-color: #46b8da;
 }
 /* line 15, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .navbar-nav .btn-info.active-trail, .nav .btn-info.active-trail, .open > .btn-info.dropdown-toggle {
   color: white;
   background-color: #31b0d5;
   border-color: #269abc;
 }
 /* line 22, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+.btn-info:active, .btn-info.active, .navbar-nav .btn-info.active-trail, .nav .btn-info.active-trail, .open > .btn-info.dropdown-toggle {
   background-image: none;
 }
 /* line 32, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
+.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .navbar-nav .btn-info.disabled.active-trail, .nav .btn-info.disabled.active-trail, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, .navbar-nav .btn-info[disabled].active-trail, .nav .btn-info[disabled].active-trail, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active, fieldset[disabled] .navbar-nav .btn-info.active-trail, .navbar-nav fieldset[disabled] .btn-info.active-trail, fieldset[disabled] .nav .btn-info.active-trail, .nav fieldset[disabled] .btn-info.active-trail {
   background-color: #5bc0de;
   border-color: #46b8da;
 }
@@ -4183,17 +4203,17 @@ select[multiple].input-lg,
   border-color: #eea236;
 }
 /* line 15, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .navbar-nav .btn-warning.active-trail, .nav .btn-warning.active-trail, .open > .btn-warning.dropdown-toggle {
   color: white;
   background-color: #ec971f;
   border-color: #d58512;
 }
 /* line 22, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
+.btn-warning:active, .btn-warning.active, .navbar-nav .btn-warning.active-trail, .nav .btn-warning.active-trail, .open > .btn-warning.dropdown-toggle {
   background-image: none;
 }
 /* line 32, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
+.btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .navbar-nav .btn-warning.disabled.active-trail, .nav .btn-warning.disabled.active-trail, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, .navbar-nav .btn-warning[disabled].active-trail, .nav .btn-warning[disabled].active-trail, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active, fieldset[disabled] .navbar-nav .btn-warning.active-trail, .navbar-nav fieldset[disabled] .btn-warning.active-trail, fieldset[disabled] .nav .btn-warning.active-trail, .nav fieldset[disabled] .btn-warning.active-trail {
   background-color: #f0ad4e;
   border-color: #eea236;
 }
@@ -4210,17 +4230,17 @@ select[multiple].input-lg,
   border-color: #d43f3a;
 }
 /* line 15, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .navbar-nav .btn-danger.active-trail, .nav .btn-danger.active-trail, .open > .btn-danger.dropdown-toggle {
   color: white;
   background-color: #c9302c;
   border-color: #ac2925;
 }
 /* line 22, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+.btn-danger:active, .btn-danger.active, .navbar-nav .btn-danger.active-trail, .nav .btn-danger.active-trail, .open > .btn-danger.dropdown-toggle {
   background-image: none;
 }
 /* line 32, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
+.btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .navbar-nav .btn-danger.disabled.active-trail, .nav .btn-danger.disabled.active-trail, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, .navbar-nav .btn-danger[disabled].active-trail, .nav .btn-danger[disabled].active-trail, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active, fieldset[disabled] .navbar-nav .btn-danger.active-trail, .navbar-nav fieldset[disabled] .btn-danger.active-trail, fieldset[disabled] .nav .btn-danger.active-trail, .nav fieldset[disabled] .btn-danger.active-trail {
   background-color: #d9534f;
   border-color: #d43f3a;
 }
@@ -4232,7 +4252,7 @@ select[multiple].input-lg,
 
 /* line 85, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #428bca;
+  color: #ca5b42;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -4249,7 +4269,7 @@ select[multiple].input-lg,
 }
 /* line 105, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #2a6496;
+  color: #963e2a;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4417,11 +4437,11 @@ tbody.collapse.in {
 }
 
 /* line 88, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_dropdowns.scss */
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+.dropdown-menu > .active > a, .navbar-nav .dropdown-menu > .active-trail > a, .nav .dropdown-menu > .active-trail > a, .dropdown-menu > .active > a:hover, .navbar-nav .dropdown-menu > .active-trail > a:hover, .nav .dropdown-menu > .active-trail > a:hover, .dropdown-menu > .active > a:focus, .navbar-nav .dropdown-menu > .active-trail > a:focus, .nav .dropdown-menu > .active-trail > a:focus {
   color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #428bca;
+  background-color: #ca5b42;
 }
 
 /* line 103, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -4526,11 +4546,13 @@ tbody.collapse.in {
   float: left;
 }
 /* line 18, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
+.btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active, .navbar-nav .btn-group > .btn.active-trail, .nav .btn-group > .btn.active-trail,
 .btn-group-vertical > .btn:hover,
 .btn-group-vertical > .btn:focus,
 .btn-group-vertical > .btn:active,
-.btn-group-vertical > .btn.active {
+.btn-group-vertical > .btn.active,
+.navbar-nav .btn-group-vertical > .btn.active-trail,
+.nav .btn-group-vertical > .btn.active-trail {
   z-index: 2;
 }
 /* line 21, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_button-groups.scss */
@@ -4944,7 +4966,7 @@ tbody.collapse.in {
 /* line 48, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #ca5b42;
 }
 /* line 59, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
@@ -4979,9 +5001,9 @@ tbody.collapse.in {
   border-color: #eeeeee #eeeeee #dddddd;
 }
 /* line 98, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+.nav-tabs > li.active > a, .navbar-nav .nav-tabs > li.active-trail > a, .nav .nav-tabs > li.active-trail > a, .nav-tabs > li.active > a:hover, .navbar-nav .nav-tabs > li.active-trail > a:hover, .nav .nav-tabs > li.active-trail > a:hover, .nav-tabs > li.active > a:focus, .navbar-nav .nav-tabs > li.active-trail > a:focus, .nav .nav-tabs > li.active-trail > a:focus {
   color: #555555;
-  background-color: white;
+  background-color: #efefef;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -5000,9 +5022,9 @@ tbody.collapse.in {
   margin-left: 2px;
 }
 /* line 133, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+.nav-pills > li.active > a, .navbar-nav .nav-pills > li.active-trail > a, .nav .nav-pills > li.active-trail > a, .nav-pills > li.active > a:hover, .navbar-nav .nav-pills > li.active-trail > a:hover, .nav .nav-pills > li.active-trail > a:hover, .nav-pills > li.active > a:focus, .navbar-nav .nav-pills > li.active-trail > a:focus, .nav .nav-pills > li.active-trail > a:focus {
   color: white;
-  background-color: #428bca;
+  background-color: #ca5b42;
 }
 
 /* line 144, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
@@ -5055,11 +5077,19 @@ tbody.collapse.in {
   border-radius: 4px;
 }
 /* line 201, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
-.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a, .navbar-nav .nav-tabs-justified > .active-trail > a, .navbar-nav .nav-tabs.nav-justified > .active-trail > a, .nav .nav-tabs-justified > .active-trail > a, .nav .nav-tabs.nav-justified > .active-trail > a,
 .nav-tabs-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:hover,
+.navbar-nav .nav-tabs-justified > .active-trail > a:hover,
+.navbar-nav .nav-tabs.nav-justified > .active-trail > a:hover,
+.nav .nav-tabs-justified > .active-trail > a:hover,
+.nav .nav-tabs.nav-justified > .active-trail > a:hover,
 .nav-tabs-justified > .active > a:focus,
-.nav-tabs.nav-justified > .active > a:focus {
+.nav-tabs.nav-justified > .active > a:focus,
+.navbar-nav .nav-tabs-justified > .active-trail > a:focus,
+.navbar-nav .nav-tabs.nav-justified > .active-trail > a:focus,
+.nav .nav-tabs-justified > .active-trail > a:focus,
+.nav .nav-tabs.nav-justified > .active-trail > a:focus {
   border: 1px solid #dddddd;
 }
 @media (min-width: 768px) {
@@ -5069,12 +5099,20 @@ tbody.collapse.in {
     border-radius: 4px 4px 0 0;
   }
   /* line 212, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
-  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a, .navbar-nav .nav-tabs-justified > .active-trail > a, .navbar-nav .nav-tabs.nav-justified > .active-trail > a, .nav .nav-tabs-justified > .active-trail > a, .nav .nav-tabs.nav-justified > .active-trail > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:hover,
+  .navbar-nav .nav-tabs-justified > .active-trail > a:hover,
+  .navbar-nav .nav-tabs.nav-justified > .active-trail > a:hover,
+  .nav .nav-tabs-justified > .active-trail > a:hover,
+  .nav .nav-tabs.nav-justified > .active-trail > a:hover,
   .nav-tabs-justified > .active > a:focus,
-  .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: white;
+  .nav-tabs.nav-justified > .active > a:focus,
+  .navbar-nav .nav-tabs-justified > .active-trail > a:focus,
+  .navbar-nav .nav-tabs.nav-justified > .active-trail > a:focus,
+  .nav .nav-tabs-justified > .active-trail > a:focus,
+  .nav .nav-tabs.nav-justified > .active-trail > a:focus {
+    border-bottom-color: #efefef;
   }
 }
 
@@ -5083,7 +5121,7 @@ tbody.collapse.in {
   display: none;
 }
 /* line 227, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
-.tab-content > .active {
+.tab-content > .active, .navbar-nav .tab-content > .active-trail, .nav .tab-content > .active-trail {
   display: block;
 }
 
@@ -5487,7 +5525,7 @@ tbody.collapse.in {
   background-color: transparent;
 }
 /* line 424, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active-trail > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active-trail > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active-trail > a:focus {
   color: #555555;
   background-color: #e7e7e7;
 }
@@ -5529,7 +5567,7 @@ tbody.collapse.in {
     background-color: transparent;
   }
   /* line 481, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active-trail > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active-trail > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > .active-trail > a:focus {
     color: #555555;
     background-color: #e7e7e7;
   }
@@ -5588,7 +5626,7 @@ tbody.collapse.in {
   background-color: transparent;
 }
 /* line 558, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active-trail > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active-trail > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active-trail > a:focus {
   color: white;
   background-color: #090909;
 }
@@ -5638,7 +5676,7 @@ tbody.collapse.in {
     background-color: transparent;
   }
   /* line 621, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active-trail > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active-trail > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > .active-trail > a:focus {
     color: white;
     background-color: #090909;
   }
@@ -5688,7 +5726,7 @@ tbody.collapse.in {
   color: #cccccc;
 }
 /* line 23, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_breadcrumbs.scss */
-.breadcrumb > .active {
+.breadcrumb > .active, .navbar-nav .breadcrumb > .active-trail, .nav .breadcrumb > .active-trail {
   color: #777777;
 }
 
@@ -5711,7 +5749,7 @@ tbody.collapse.in {
   padding: 6px 12px;
   line-height: 1.42857;
   text-decoration: none;
-  color: #428bca;
+  color: #ca5b42;
   background-color: white;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -5733,19 +5771,25 @@ tbody.collapse.in {
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-  color: #2a6496;
+  color: #963e2a;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
 /* line 53, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pagination.scss */
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > a, .navbar-nav .pagination > .active-trail > a, .nav .pagination > .active-trail > a, .pagination > .active > a:hover, .navbar-nav .pagination > .active-trail > a:hover, .nav .pagination > .active-trail > a:hover, .pagination > .active > a:focus, .navbar-nav .pagination > .active-trail > a:focus, .nav .pagination > .active-trail > a:focus,
 .pagination > .active > span,
+.navbar-nav .pagination > .active-trail > span,
+.nav .pagination > .active-trail > span,
 .pagination > .active > span:hover,
-.pagination > .active > span:focus {
+.navbar-nav .pagination > .active-trail > span:hover,
+.nav .pagination > .active-trail > span:hover,
+.pagination > .active > span:focus,
+.navbar-nav .pagination > .active-trail > span:focus,
+.nav .pagination > .active-trail > span:focus {
   z-index: 2;
   color: white;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #ca5b42;
+  border-color: #ca5b42;
   cursor: default;
 }
 /* line 68, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pagination.scss */
@@ -5895,11 +5939,11 @@ a.label:hover, a.label:focus {
 
 /* line 48, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #428bca;
+  background-color: #ca5b42;
 }
 /* line 8, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #3071a9;
+  background-color: #a94630;
 }
 
 /* line 52, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_labels.scss */
@@ -5968,8 +6012,8 @@ a.label:hover, a.label:focus {
   padding: 1px 5px;
 }
 /* line 40, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_badges.scss */
-a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #428bca;
+a.list-group-item.active > .badge, .navbar-nav a.list-group-item.active-trail > .badge, .nav a.list-group-item.active-trail > .badge, .nav-pills > .active > a > .badge, .navbar-nav .nav-pills > .active-trail > a > .badge, .nav .nav-pills > .active-trail > a > .badge {
+  color: #ca5b42;
   background-color: white;
 }
 /* line 44, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_badges.scss */
@@ -6038,7 +6082,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857;
-  background-color: white;
+  background-color: #efefef;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -6064,8 +6108,10 @@ a.badge:hover, a.badge:focus {
 /* line 36, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus,
-a.thumbnail.active {
-  border-color: #428bca;
+a.thumbnail.active,
+.navbar-nav a.thumbnail.active-trail,
+.nav a.thumbnail.active-trail {
+  border-color: #ca5b42;
 }
 
 /* line 9, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_alerts.scss */
@@ -6212,7 +6258,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: white;
   text-align: center;
-  background-color: #428bca;
+  background-color: #ca5b42;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -6230,8 +6276,10 @@ a.thumbnail.active {
 }
 
 /* line 66, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress.active .progress-bar,
-.progress-bar.active {
+.progress.active .progress-bar, .navbar-nav .progress.active-trail .progress-bar, .nav .progress.active-trail .progress-bar,
+.progress-bar.active,
+.navbar-nav .progress-bar.active-trail,
+.nav .progress-bar.active-trail {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
   -o-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
@@ -6401,25 +6449,37 @@ a.list-group-item:hover, a.list-group-item:focus {
   color: #777777;
 }
 /* line 90, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_list-group.scss */
-.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+.list-group-item.active, .navbar-nav .list-group-item.active-trail, .nav .list-group-item.active-trail, .list-group-item.active:hover, .navbar-nav .list-group-item.active-trail:hover, .nav .list-group-item.active-trail:hover, .list-group-item.active:focus, .navbar-nav .list-group-item.active-trail:focus, .nav .list-group-item.active-trail:focus {
   z-index: 2;
   color: white;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #ca5b42;
+  border-color: #ca5b42;
 }
 /* line 99, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_list-group.scss */
-.list-group-item.active .list-group-item-heading,
+.list-group-item.active .list-group-item-heading, .navbar-nav .list-group-item.active-trail .list-group-item-heading, .nav .list-group-item.active-trail .list-group-item-heading,
 .list-group-item.active .list-group-item-heading > small,
-.list-group-item.active .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading,
+.navbar-nav .list-group-item.active-trail .list-group-item-heading > small,
+.nav .list-group-item.active-trail .list-group-item-heading > small,
+.list-group-item.active .list-group-item-heading > .small,
+.navbar-nav .list-group-item.active-trail .list-group-item-heading > .small,
+.nav .list-group-item.active-trail .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading, .navbar-nav .list-group-item.active-trail:hover .list-group-item-heading, .nav .list-group-item.active-trail:hover .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading > small,
-.list-group-item.active:hover .list-group-item-heading > .small, .list-group-item.active:focus .list-group-item-heading,
+.navbar-nav .list-group-item.active-trail:hover .list-group-item-heading > small,
+.nav .list-group-item.active-trail:hover .list-group-item-heading > small,
+.list-group-item.active:hover .list-group-item-heading > .small,
+.navbar-nav .list-group-item.active-trail:hover .list-group-item-heading > .small,
+.nav .list-group-item.active-trail:hover .list-group-item-heading > .small, .list-group-item.active:focus .list-group-item-heading, .navbar-nav .list-group-item.active-trail:focus .list-group-item-heading, .nav .list-group-item.active-trail:focus .list-group-item-heading,
 .list-group-item.active:focus .list-group-item-heading > small,
-.list-group-item.active:focus .list-group-item-heading > .small {
+.navbar-nav .list-group-item.active-trail:focus .list-group-item-heading > small,
+.nav .list-group-item.active-trail:focus .list-group-item-heading > small,
+.list-group-item.active:focus .list-group-item-heading > .small,
+.navbar-nav .list-group-item.active-trail:focus .list-group-item-heading > .small,
+.nav .list-group-item.active-trail:focus .list-group-item-heading > .small {
   color: inherit;
 }
 /* line 102, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_list-group.scss */
-.list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: #e1edf7;
+.list-group-item.active .list-group-item-text, .navbar-nav .list-group-item.active-trail .list-group-item-text, .nav .list-group-item.active-trail .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .navbar-nav .list-group-item.active-trail:hover .list-group-item-text, .nav .list-group-item.active-trail:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text, .navbar-nav .list-group-item.active-trail:focus .list-group-item-text, .nav .list-group-item.active-trail:focus .list-group-item-text {
+  color: #f7e5e1;
 }
 
 /* line 4, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -6442,7 +6502,7 @@ a.list-group-item-success:hover, a.list-group-item-success:focus {
   background-color: #d0e9c6;
 }
 /* line 25, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
-a.list-group-item-success.active, a.list-group-item-success.active:hover, a.list-group-item-success.active:focus {
+a.list-group-item-success.active, .navbar-nav a.list-group-item-success.active-trail, .nav a.list-group-item-success.active-trail, a.list-group-item-success.active:hover, .navbar-nav a.list-group-item-success.active-trail:hover, .nav a.list-group-item-success.active-trail:hover, a.list-group-item-success.active:focus, .navbar-nav a.list-group-item-success.active-trail:focus, .nav a.list-group-item-success.active-trail:focus {
   color: #fff;
   background-color: #3c763d;
   border-color: #3c763d;
@@ -6468,7 +6528,7 @@ a.list-group-item-info:hover, a.list-group-item-info:focus {
   background-color: #c4e3f3;
 }
 /* line 25, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
-a.list-group-item-info.active, a.list-group-item-info.active:hover, a.list-group-item-info.active:focus {
+a.list-group-item-info.active, .navbar-nav a.list-group-item-info.active-trail, .nav a.list-group-item-info.active-trail, a.list-group-item-info.active:hover, .navbar-nav a.list-group-item-info.active-trail:hover, .nav a.list-group-item-info.active-trail:hover, a.list-group-item-info.active:focus, .navbar-nav a.list-group-item-info.active-trail:focus, .nav a.list-group-item-info.active-trail:focus {
   color: #fff;
   background-color: #31708f;
   border-color: #31708f;
@@ -6494,7 +6554,7 @@ a.list-group-item-warning:hover, a.list-group-item-warning:focus {
   background-color: #faf2cc;
 }
 /* line 25, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
-a.list-group-item-warning.active, a.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus {
+a.list-group-item-warning.active, .navbar-nav a.list-group-item-warning.active-trail, .nav a.list-group-item-warning.active-trail, a.list-group-item-warning.active:hover, .navbar-nav a.list-group-item-warning.active-trail:hover, .nav a.list-group-item-warning.active-trail:hover, a.list-group-item-warning.active:focus, .navbar-nav a.list-group-item-warning.active-trail:focus, .nav a.list-group-item-warning.active-trail:focus {
   color: #fff;
   background-color: #8a6d3b;
   border-color: #8a6d3b;
@@ -6520,7 +6580,7 @@ a.list-group-item-danger:hover, a.list-group-item-danger:focus {
   background-color: #ebcccc;
 }
 /* line 25, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
-a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
+a.list-group-item-danger.active, .navbar-nav a.list-group-item-danger.active-trail, .nav a.list-group-item-danger.active-trail, a.list-group-item-danger.active:hover, .navbar-nav a.list-group-item-danger.active-trail:hover, .nav a.list-group-item-danger.active-trail:hover, a.list-group-item-danger.active:focus, .navbar-nav a.list-group-item-danger.active-trail:focus, .nav a.list-group-item-danger.active-trail:focus {
   color: #fff;
   background-color: #a94442;
   border-color: #a94442;
@@ -6818,26 +6878,26 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 /* line 229, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #428bca;
+  border-color: #ca5b42;
 }
 /* line 6, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading {
   color: white;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #ca5b42;
+  border-color: #ca5b42;
 }
 /* line 11, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #428bca;
+  border-top-color: #ca5b42;
 }
 /* line 14, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading .badge {
-  color: #428bca;
+  color: #ca5b42;
   background-color: white;
 }
 /* line 20, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #428bca;
+  border-bottom-color: #ca5b42;
 }
 
 /* line 232, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
@@ -7480,13 +7540,13 @@ button.close {
   line-height: 1;
 }
 /* line 31, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-inner > .active,
+.carousel-inner > .active, .navbar-nav .carousel-inner > .active-trail, .nav .carousel-inner > .active-trail,
 .carousel-inner > .next,
 .carousel-inner > .prev {
   display: block;
 }
 /* line 35, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-inner > .active {
+.carousel-inner > .active, .navbar-nav .carousel-inner > .active-trail, .nav .carousel-inner > .active-trail {
   left: 0;
 }
 /* line 40, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_carousel.scss */
@@ -7510,11 +7570,11 @@ button.close {
   left: 0;
 }
 /* line 57, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-inner > .active.left {
+.carousel-inner > .active.left, .navbar-nav .carousel-inner > .left.active-trail, .nav .carousel-inner > .left.active-trail {
   left: -100%;
 }
 /* line 60, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-inner > .active.right {
+.carousel-inner > .active.right, .navbar-nav .carousel-inner > .right.active-trail, .nav .carousel-inner > .right.active-trail {
   left: 100%;
 }
 
@@ -7623,7 +7683,7 @@ button.close {
   background-color: rgba(0, 0, 0, 0);
 }
 /* line 180, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-indicators .active {
+.carousel-indicators .active, .carousel-indicators .navbar-nav .active-trail, .navbar-nav .carousel-indicators .active-trail, .carousel-indicators .nav .active-trail, .nav .carousel-indicators .active-trail {
   margin: 0;
   width: 12px;
   height: 12px;
@@ -8032,4 +8092,23 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 6, ../sass/styles.scss */
+.menu-block-wrapper {
+  margin-top: 20px;
+}
+
+/* line 17, ../sass/styles.scss */
+.field-image-gallry {
+  display: inline;
+}
+/* line 20, ../sass/styles.scss */
+.field-image-gallry .colorbox {
+  float: left;
+  margin: 0 0 20px 20px;
+}
+
+/* line 25, ../sass/styles.scss */
+.node-type-section-content .page-header {
+  display: none;
 }
