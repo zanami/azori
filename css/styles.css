@@ -8105,10 +8105,34 @@ button.close {
 /* line 20, ../sass/styles.scss */
 .field-image-gallry .colorbox {
   float: left;
-  margin: 0 0 20px 20px;
+  margin: 0 20px 20px 0;
+}
+
+/* line 22, ../sass/styles.scss */
+.flexslider {
+  max-width: 698px;
+}
+
+/* line 24, ../sass/styles.scss */
+.field-paragraph-text {
+  clear: both;
 }
 
 /* line 25, ../sass/styles.scss */
+.entity-paragraphs-item {
+  margin: 20px 0;
+}
+/* line 15, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.entity-paragraphs-item:before, .entity-paragraphs-item:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.entity-paragraphs-item:after {
+  clear: both;
+}
+
+/* line 29, ../sass/styles.scss */
 .node-type-section-content .page-header {
   display: none;
 }
