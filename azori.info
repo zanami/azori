@@ -46,10 +46,10 @@ scripts[] = 'js/bootstrap/alert.js'
 ;scripts[] = 'js/bootstrap/collapse.js'
 scripts[] = 'js/bootstrap/dropdown.js'
 ;scripts[] = 'js/bootstrap/modal.js'
-;scripts[] = 'js/bootstrap/tooltip.js'
-;scripts[] = 'js/bootstrap/popover.js'
+scripts[] = 'js/bootstrap/tooltip.js'
+scripts[] = 'js/bootstrap/popover.js'
 ;scripts[] = 'js/bootstrap/scrollspy.js'
-;scripts[] = 'js/bootstrap/tab.js'
+scripts[] = 'js/bootstrap/tab.js'
 scripts[] = 'js/bootstrap/transition.js'
 
 ; Disable BootstrapCDN so the compiled LESS source files can be used.
