@@ -16,14 +16,18 @@
 // gallery stuff
 .field-image-gallry {
 	// colorbox flavor
-	display:inline;
-	.colorbox { float:left; margin: 0 $line-height-computed $line-height-computed 0;}
+	display: inline;
+	// a colorbox has margin-right, img has bottom
+	.colorbox { float: left; margin: 0 $line-height-computed 0 0;}
+	img {margin: 0 0 $line-height-computed 0;}
 }
-.flexslider {max-width: 698px;}
+// carousel
+.flexslider .slides li {margin-right: 5px;}
+// slideshow
+.field-chunks .flexslider {max-width: 698px; margin-right: 0;}
 
 .field-paragraph-text {clear: both;}
 .entity-paragraphs-item {@include clearfix; margin: $line-height-computed 0;}
 
 // hide h1 from section content
-
-.node-type-section-content .page-header {display:none;}
+.node-type-section-content .page-header {display: none;}
