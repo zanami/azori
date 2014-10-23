@@ -1410,7 +1410,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
-  background-color: #efefef;
+  background-color: #f9f9f9;
 }
 
 /* line 39, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1467,7 +1467,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: #efefef;
+  background-color: #f9f9f9;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -3197,7 +3197,7 @@ th {
 }
 /* line 56, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
 .table .table {
-  background-color: #efefef;
+  background-color: #f9f9f9;
 }
 
 /* line 70, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
@@ -5003,7 +5003,7 @@ tbody.collapse.in {
 /* line 98, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .navbar-nav .nav-tabs > li.active-trail > a, .nav .nav-tabs > li.active-trail > a, .nav-tabs > li.active > a:hover, .navbar-nav .nav-tabs > li.active-trail > a:hover, .nav .nav-tabs > li.active-trail > a:hover, .nav-tabs > li.active > a:focus, .navbar-nav .nav-tabs > li.active-trail > a:focus, .nav .nav-tabs > li.active-trail > a:focus {
   color: #555555;
-  background-color: #efefef;
+  background-color: #f9f9f9;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -5112,7 +5112,7 @@ tbody.collapse.in {
   .navbar-nav .nav-tabs.nav-justified > .active-trail > a:focus,
   .nav .nav-tabs-justified > .active-trail > a:focus,
   .nav .nav-tabs.nav-justified > .active-trail > a:focus {
-    border-bottom-color: #efefef;
+    border-bottom-color: #f9f9f9;
   }
 }
 
@@ -6082,7 +6082,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857;
-  background-color: #efefef;
+  background-color: #f9f9f9;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
