@@ -8102,23 +8102,33 @@ button.close {
 .field-image-gallry {
   display: inline;
 }
-/* line 20, ../sass/styles.scss */
+/* line 21, ../sass/styles.scss */
 .field-image-gallry .colorbox {
   float: left;
-  margin: 0 20px 20px 0;
+  margin: 0 20px 0 0;
 }
-
 /* line 22, ../sass/styles.scss */
-.flexslider {
-  max-width: 698px;
+.field-image-gallry img {
+  margin: 0 0 20px 0;
 }
 
-/* line 24, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
+.flexslider .slides li {
+  margin-right: 5px;
+}
+
+/* line 27, ../sass/styles.scss */
+.field-chunks .flexslider {
+  max-width: 698px;
+  margin-right: 0;
+}
+
+/* line 29, ../sass/styles.scss */
 .field-paragraph-text {
   clear: both;
 }
 
-/* line 25, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 .entity-paragraphs-item {
   margin: 20px 0;
 }
@@ -8132,7 +8142,7 @@ button.close {
   clear: both;
 }
 
-/* line 29, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .node-type-section-content .page-header {
   display: none;
 }
