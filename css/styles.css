@@ -6829,3 +6829,8 @@ button.close {
 .node-type-section-content .page-header {
   display: none;
 }
+
+/* line 49, ../sass/styles.scss */
+.pane-content .views-row {
+  margin-bottom: 1.5em;
+}
