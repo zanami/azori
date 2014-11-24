@@ -15,6 +15,16 @@
 		a.active-trail {color: $gray;}
 }
 
+// branding 
+.branding {
+	margin: 1.5em 0;
+	.phoneno {
+		line-height: 32px;
+		@extend h2;
+		sup {color: $gray-light;}
+	}
+}
+
 // gallery stuff
 .field-image-gallry {
 	// colorbox flavor

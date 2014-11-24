@@ -315,13 +315,14 @@ th {
   /* line 55, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_print.scss */
   p,
   h2,
+  .branding .phoneno,
   h3 {
     orphans: 3;
     widows: 3;
   }
 
   /* line 61, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_print.scss */
-  h2,
+  h2, .branding .phoneno,
   h3 {
     page-break-after: avoid;
   }
@@ -496,7 +497,7 @@ hr {
 }
 
 /* line 10, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_type.scss */
-h1, h2, h3, h4, h5, h6,
+h1, h2, .branding .phoneno, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
@@ -505,8 +506,9 @@ h1, h2, h3, h4, h5, h6,
 }
 /* line 17, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_type.scss */
 h1 small,
-h1 .small, h2 small,
-h2 .small, h3 small,
+h1 .small, h2 small, .branding .phoneno small,
+h2 .small,
+.branding .phoneno .small, h3 small,
 h3 .small, h4 small,
 h4 .small, h5 small,
 h5 .small, h6 small,
@@ -525,7 +527,8 @@ h6 .small,
 
 /* line 26, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_type.scss */
 h1, .h1,
-h2, .h2,
+h2,
+.branding .phoneno, .h2,
 h3, .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -535,7 +538,9 @@ h1 small,
 h1 .small, .h1 small,
 .h1 .small,
 h2 small,
-h2 .small, .h2 small,
+.branding .phoneno small,
+h2 .small,
+.branding .phoneno .small, .h2 small,
 .h2 .small,
 h3 small,
 h3 .small, .h3 small,
@@ -569,7 +574,7 @@ h1, .h1 {
 }
 
 /* line 48, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_type.scss */
-h2, .h2 {
+h2, .branding .phoneno, .h2 {
   font-size: 30px;
 }
 
@@ -6764,36 +6769,49 @@ button.close {
 }
 
 /* line 19, ../sass/styles.scss */
+.branding {
+  margin: 1.5em 0;
+}
+/* line 21, ../sass/styles.scss */
+.branding .phoneno {
+  line-height: 32px;
+}
+/* line 24, ../sass/styles.scss */
+.branding .phoneno sup {
+  color: #777777;
+}
+
+/* line 29, ../sass/styles.scss */
 .field-image-gallry {
   display: inline;
 }
-/* line 23, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .field-image-gallry .colorbox {
   float: left;
   margin: 0 20px 0 0;
 }
-/* line 24, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 .field-image-gallry img {
   margin: 0 0 20px 0;
 }
 
-/* line 27, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 .flex-carousel .flexslider .slides li {
   margin-right: 5px;
 }
 
-/* line 29, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .field-chunks .flexslider {
   max-width: 698px;
   margin-right: 0;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
 .field-paragraph-text {
   clear: both;
 }
 
-/* line 32, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .entity-paragraphs-item {
   margin: 20px 0;
 }
@@ -6807,7 +6825,7 @@ button.close {
   clear: both;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 .node-type-section-content .page-header {
   display: none;
 }
