@@ -13,6 +13,7 @@ breakpoints[mobile] = (min-width: 0px)
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
+regions[branding]     = 'Branding'
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
