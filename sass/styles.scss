@@ -5,12 +5,14 @@
 
 .menu-block-wrapper {margin-top:20px;}
 
+.navbar-header {padding-right:15px;}
+
 .navbar-nav {
 	.active-trail {@extend .active;}
 }
 
-.nav {
-	.active, .active-trail {@extend .active;}
+.main-container .menu {
+		a.active-trail {color: $gray;}
 }
 
 // gallery stuff
