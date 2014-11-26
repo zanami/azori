@@ -57,7 +57,8 @@
 		top: 12px;
 		legend {top: -12px; font-size: 12px;}
 	}
-	.panel-body {padding: 12px 8px;}
+	.panel-body {	padding: 12px 8px;	}
+	#panopoly-form-widget-preview .panel-body {max-height: 22em; overflow: scroll;}
 	.form-control {height:24px; padding: 2px 6px;}
 	.form-group {margin-bottom: 6px;}
 	.help-block {margin-bottom: 6px;}

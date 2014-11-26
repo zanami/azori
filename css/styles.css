@@ -5830,15 +5830,20 @@ button.close {
   padding: 12px 8px;
 }
 /* line 61, ../sass/styles.scss */
+#modal-content #panopoly-form-widget-preview .panel-body {
+  max-height: 22em;
+  overflow: scroll;
+}
+/* line 62, ../sass/styles.scss */
 #modal-content .form-control {
   height: 24px;
   padding: 2px 6px;
 }
-/* line 62, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 #modal-content .form-group {
   margin-bottom: 6px;
 }
-/* line 63, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 #modal-content .help-block {
   margin-bottom: 6px;
 }
