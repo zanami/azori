@@ -55,11 +55,10 @@
 #modal-content {
 	fieldset {
 		top: 12px;
-		legend {
-			top: -12px;
-			font-size: 12px;
-		}
-		.panel-body {padding: 12px 8px;}
-		.form-control {height:24px; padding: 2px 6px;}
+		legend {top: -12px; font-size: 12px;}
 	}
+	.panel-body {padding: 12px 8px;}
+	.form-control {height:24px; padding: 2px 6px;}
+	.form-group {margin-bottom: 6px;}
+	.help-block {margin-bottom: 6px;}
 }

@@ -5825,12 +5825,20 @@ button.close {
   top: -12px;
   font-size: 12px;
 }
-/* line 62, ../sass/styles.scss */
-#modal-content fieldset .panel-body {
+/* line 60, ../sass/styles.scss */
+#modal-content .panel-body {
   padding: 12px 8px;
 }
-/* line 63, ../sass/styles.scss */
-#modal-content fieldset .form-control {
+/* line 61, ../sass/styles.scss */
+#modal-content .form-control {
   height: 24px;
   padding: 2px 6px;
+}
+/* line 62, ../sass/styles.scss */
+#modal-content .form-group {
+  margin-bottom: 6px;
+}
+/* line 63, ../sass/styles.scss */
+#modal-content .help-block {
+  margin-bottom: 6px;
 }
