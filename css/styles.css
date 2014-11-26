@@ -5818,9 +5818,19 @@ button.close {
 
 /* line 56, ../sass/styles.scss */
 #modal-content fieldset {
-  top: 22px;
+  top: 12px;
 }
 /* line 58, ../sass/styles.scss */
 #modal-content fieldset legend {
-  top: -22px;
+  top: -12px;
+  font-size: 12px;
+}
+/* line 62, ../sass/styles.scss */
+#modal-content fieldset .panel-body {
+  padding: 12px 8px;
+}
+/* line 63, ../sass/styles.scss */
+#modal-content fieldset .form-control {
+  height: 24px;
+  padding: 2px 6px;
 }

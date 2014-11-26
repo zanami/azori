@@ -54,9 +54,12 @@
 
 #modal-content {
 	fieldset {
-		top: 22px;
+		top: 12px;
 		legend {
-			top: -22px;
+			top: -12px;
+			font-size: 12px;
 		}
+		.panel-body {padding: 12px 8px;}
+		.form-control {height:24px; padding: 2px 6px;}
 	}
 }
