@@ -5254,3 +5254,12 @@ button.close {
 .pane-content .views-row {
   margin-bottom: 1.5em;
 }
+
+/* line 56, ../sass/styles.scss */
+#modal-content fieldset {
+  top: 22px;
+}
+/* line 58, ../sass/styles.scss */
+#modal-content fieldset legend {
+  top: -22px;
+}

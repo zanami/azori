@@ -49,3 +49,14 @@
 .pane-content .views-row {
 	margin-bottom: 1.5em;
 }
+
+// IPE Modals
+
+#modal-content {
+	fieldset {
+		top: 22px;
+		legend {
+			top: -22px;
+		}
+	}
+}
