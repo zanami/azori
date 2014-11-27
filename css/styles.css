@@ -5905,11 +5905,11 @@ button.close {
   height: 330px;
   background: url(/sites/azori.ru/files/bg-panorama.jpg) 50% -225px no-repeat;
 }
-/* line 101, ../sass/styles.scss */
-body.logged-in .page-home #bg-image {
+/* line 103, ../sass/styles.scss */
+.page-home.logged-in #bg-image {
   top: 39px;
 }
-/* line 102, ../sass/styles.scss */
-body.logged-in.navbar-tray-open .page-home #bg-image {
+/* line 104, ../sass/styles.scss */
+.page-home.logged-in.navbar-tray-open #bg-image {
   top: 79px;
 }
