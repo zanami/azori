@@ -316,13 +316,14 @@ th {
   p,
   h2,
   .branding .phoneno,
+  .page-home .branding .phoneno,
   h3 {
     orphans: 3;
     widows: 3;
   }
 
   /* line 61, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_print.scss */
-  h2, .branding .phoneno,
+  h2, .branding .phoneno, .page-home .branding .phoneno,
   h3 {
     page-break-after: avoid;
   }
@@ -497,7 +498,7 @@ hr {
 }
 
 /* line 10, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_type.scss */
-h1, h2, .branding .phoneno, h3, h4, h5, h6,
+h1, h2, .branding .phoneno, .page-home .branding .phoneno, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
@@ -506,7 +507,7 @@ h1, h2, .branding .phoneno, h3, h4, h5, h6,
 }
 /* line 17, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_type.scss */
 h1 small,
-h1 .small, h2 small, .branding .phoneno small,
+h1 .small, h2 small, .branding .phoneno small, .page-home .branding .phoneno small,
 h2 .small,
 .branding .phoneno .small, h3 small,
 h3 .small, h4 small,
@@ -528,7 +529,8 @@ h6 .small,
 /* line 26, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_type.scss */
 h1, .h1,
 h2,
-.branding .phoneno, .h2,
+.branding .phoneno,
+.page-home .branding .phoneno, .h2,
 h3, .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -539,6 +541,7 @@ h1 .small, .h1 small,
 .h1 .small,
 h2 small,
 .branding .phoneno small,
+.page-home .branding .phoneno small,
 h2 .small,
 .branding .phoneno .small, .h2 small,
 .h2 .small,
@@ -574,7 +577,7 @@ h1, .h1 {
 }
 
 /* line 48, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_type.scss */
-h2, .branding .phoneno, .h2 {
+h2, .branding .phoneno, .page-home .branding .phoneno, .h2 {
   font-size: 30px;
 }
 
@@ -5734,65 +5737,65 @@ button.close {
     display: none !important;
   }
 }
-/* line 6, ../sass/styles.scss */
+/* line 7, ../sass/styles.scss */
 .menu-block-wrapper {
   margin-top: 20px;
 }
 
-/* line 8, ../sass/styles.scss */
+/* line 9, ../sass/styles.scss */
 .navbar-header {
   padding-right: 15px;
 }
 
-/* line 15, ../sass/styles.scss */
+/* line 16, ../sass/styles.scss */
 .main-container .menu a.active-trail {
   color: #555555;
 }
 
-/* line 19, ../sass/styles.scss */
+/* line 20, ../sass/styles.scss */
 .branding {
   margin: 1.5em 0;
 }
-/* line 21, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 .branding .phoneno {
   line-height: 32px;
 }
-/* line 24, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 .branding .phoneno sup {
   color: #777777;
 }
 
-/* line 29, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 .field-image-gallry {
   display: inline;
 }
-/* line 33, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 .field-image-gallry .colorbox {
   float: left;
   margin: 0 20px 0 0;
 }
-/* line 34, ../sass/styles.scss */
+/* line 35, ../sass/styles.scss */
 .field-image-gallry img {
   margin: 0 0 20px 0;
 }
 
-/* line 37, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 .flex-carousel .flexslider .slides li {
   margin-right: 5px;
 }
 
-/* line 39, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
 .field-chunks .flexslider {
   max-width: 698px;
   margin-right: 0;
 }
 
-/* line 41, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .field-paragraph-text {
   clear: both;
 }
 
-/* line 42, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .entity-paragraphs-item {
   margin: 20px 0;
 }
@@ -5806,83 +5809,93 @@ button.close {
   clear: both;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .node-type-section-content .page-header {
   display: none;
 }
 
-/* line 49, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 .pane-content .views-row, .panel-panel .views-row {
   margin-bottom: 1.5em;
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 .footer {
   margin-top: 3em;
   padding: 1em 0;
   border-top: 1px solid #eeeeee;
   color: #777777;
 }
-/* line 59, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 .footer a {
   color: #777777;
   text-decoration: underline;
 }
-/* line 61, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .footer img.map {
   border: 4px solid #d5d5d5;
 }
-/* line 63, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 .footer h2, .footer .branding .phoneno, .branding .footer .phoneno, .footer h3, .footer h4, .footer h5.h6 {
   margin-top: 0;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 #modal-content fieldset {
   top: 12px;
 }
-/* line 71, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 #modal-content fieldset legend {
   top: -12px;
   font-size: 12px;
 }
-/* line 73, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 #modal-content .panel-body {
   padding: 12px 8px;
 }
-/* line 74, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 #modal-content #panopoly-form-widget-preview .panel-body {
   max-height: 22em;
   overflow: scroll;
 }
-/* line 75, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 #modal-content .form-control {
   height: 24px;
   padding: 2px 6px;
 }
-/* line 76, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 #modal-content .form-group {
   margin-bottom: 6px;
 }
-/* line 77, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 #modal-content .help-block {
   margin-bottom: 6px;
 }
 
-/* line 82, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 .node-frontpage .field-long-title {
   margin: 1em 0;
 }
 
-/* line 84, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 .page-home h1.page-header {
   display: none;
 }
-/* line 85, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 .page-home .branding {
   margin-top: 220px;
+  color: #f5f5f5;
+  text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 0;
 }
-/* line 86, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
+.page-home .branding .phoneno {
+  line-height: 32px;
+}
+/* line 93, ../sass/styles.scss */
+.page-home .branding .phoneno sup {
+  color: #eeeeee;
+}
+/* line 96, ../sass/styles.scss */
 .page-home #bg-image {
   position: absolute;
   left: 0;
