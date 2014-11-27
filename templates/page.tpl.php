@@ -73,6 +73,7 @@
  * @ingroup themeable
  */
 ?>
+<div id="bg-image"></div>
 <?php if (!empty($page['branding'])): ?>
   <div class="branding"><?php print render($page['branding']); ?></div>
 <?php endif; ?>
