@@ -5812,7 +5812,7 @@ button.close {
 }
 
 /* line 49, ../sass/styles.scss */
-.pane-content .views-row {
+.pane-content .views-row, .panel-panel .views-row {
   margin-bottom: 1.5em;
 }
 
