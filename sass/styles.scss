@@ -50,6 +50,17 @@
 	margin-bottom: 1.5em;
 }
 
+.footer {
+	margin-top: 3em;
+	padding: 1em 0;
+	border-top: 1px solid $gray-lighter;
+	color: $gray-light;
+	
+	a {color: $gray-light; text-decoration: underline;}
+	
+	h2,h3,h4,h5.h6 {margin-top: 0;}
+}
+
 // IPE Modals
 
 #modal-content {

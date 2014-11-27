@@ -5816,34 +5816,51 @@ button.close {
   margin-bottom: 1.5em;
 }
 
-/* line 56, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
+.footer {
+  margin-top: 3em;
+  padding: 1em 0;
+  border-top: 1px solid #eeeeee;
+  color: #777777;
+}
+/* line 59, ../sass/styles.scss */
+.footer a {
+  color: #777777;
+  text-decoration: underline;
+}
+/* line 61, ../sass/styles.scss */
+.footer h2, .footer .branding .phoneno, .branding .footer .phoneno, .footer h3, .footer h4, .footer h5.h6 {
+  margin-top: 0;
+}
+
+/* line 67, ../sass/styles.scss */
 #modal-content fieldset {
   top: 12px;
 }
-/* line 58, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 #modal-content fieldset legend {
   top: -12px;
   font-size: 12px;
 }
-/* line 60, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 #modal-content .panel-body {
   padding: 12px 8px;
 }
-/* line 61, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 #modal-content #panopoly-form-widget-preview .panel-body {
   max-height: 22em;
   overflow: scroll;
 }
-/* line 62, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 #modal-content .form-control {
   height: 24px;
   padding: 2px 6px;
 }
-/* line 63, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 #modal-content .form-group {
   margin-bottom: 6px;
 }
-/* line 64, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 #modal-content .help-block {
   margin-bottom: 6px;
 }
