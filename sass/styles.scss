@@ -1,4 +1,4 @@
-@import "bootstrap-compass";
+*@import "bootstrap-compass";
 @import "bootstrap-variables";
 @import "bootstrap-custom";
 @import "compass/css3";
@@ -98,5 +98,7 @@
 		position: absolute; left:0; top: 0;
 		width: 100%; height: 330px;
 		background: url(/sites/azori.ru/files/bg-panorama.jpg) 50% -225px no-repeat;
+		body.logged-in & {top:39px;}
+		body.logged-in.navbar-tray-open & {top:79px;}
 	}
 }
