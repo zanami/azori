@@ -33,6 +33,9 @@ regions[page_bottom]    = 'Page bottom'
 stylesheets[all][] = css/styles.css
 stylesheets[all][] = css/flexslider.css
 
+; unset
+stylesheets[all][] = panopoly-featured.css
+
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
