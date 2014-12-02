@@ -5923,3 +5923,7 @@ button.close {
 .page-home .panel-bootstrap-pane .pane-azori-ads-panel-pane-2 .pane-content {
   float: right;
 }
+/* line 111, ../sass/styles.scss */
+.page-home .panel-bootstrap-pane .banner-small {
+  margin-bottom: 15px;
+}
