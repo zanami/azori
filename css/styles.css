@@ -5913,3 +5913,13 @@ button.close {
 .page-home.logged-in.navbar-tray-open #bg-image {
   top: 79px;
 }
+/* line 106, ../sass/styles.scss */
+.page-home .panel-bootstrap-pane {
+  margin-bottom: 1em;
+  padding: 0 0 1em 0;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 110, ../sass/styles.scss */
+.page-home .panel-bootstrap-pane .pane-azori-ads-panel-pane-2 .pane-content {
+  float: right;
+}
