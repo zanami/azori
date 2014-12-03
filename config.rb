@@ -3,7 +3,7 @@
 # Compass, you may safely ignore or delete this file.
 #
 # Change this to :production when ready to deploy the CSS to the live server.
-environment = :development
+environment = :production
 # Location of the theme's resources.
 css_dir = "css"
 fonts_dir = "css/fonts"
