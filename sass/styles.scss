@@ -19,7 +19,7 @@
 
 #bg-image {
 	position: absolute; left:0; top: 0;
-	width: 100%; height: 130px;
+	width: 100%; height: 120px;
 	background-color: white;
 }
 // admin navbar
@@ -28,7 +28,7 @@
 
 // branding 
 .branding {
-	margin: 20px 0 1.5em;
+	margin: 20px 0;
 	.phoneno {
 		line-height: 32px;
 		@extend h2;
