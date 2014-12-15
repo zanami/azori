@@ -4,6 +4,7 @@
 #
 # Change this to :production when ready to deploy the CSS to the live server.
 environment = :production
+# environment = :development
 # Location of the theme's resources.
 css_dir = "css"
 fonts_dir = "css/fonts"
