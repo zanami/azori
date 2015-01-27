@@ -42,8 +42,25 @@
 	// colorbox flavor
 	display: inline;
 	// a colorbox has margin-right, img has bottom
-	.colorbox { float: left; margin: 0 $line-height-computed 0 0;}
-	img {margin: 0 0 $line-height-computed 0;}
+	.colorbox-wrapper {
+			float: left; margin: 0 $line-height-computed $line-height-computed 0;
+		  position:relative;
+			
+			.colorbox-magnifier {
+				width: 12px; height: 12px;
+				position: absolute;
+				left: 4px; top: 4px;
+				@include replace-text('../images/icon_zoom.png');
+			}
+			.colorbox-download {
+				width: 32px; height: 32px;
+				position: absolute;
+				right: 4px; bottom: 4px;
+				@include replace-text('../images/icon_undock.png');
+			}
+
+		}
+//	img {margin: 0 0 $line-height-computed 0;}
 }
 // carousel
 .flex-carousel .flexslider .slides li {margin-right: 5px;}
