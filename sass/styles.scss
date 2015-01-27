@@ -2,7 +2,7 @@
 @import "bootstrap-variables";
 @import "bootstrap-custom";
 @import "compass/css3";
-
+@import "compass/typography/text/replacement";
 
 .menu-block-wrapper {margin-top:20px;}
 
@@ -45,7 +45,7 @@
 	.colorbox-wrapper {
 			float: left; margin: 0 $line-height-computed $line-height-computed 0;
 		  position:relative;
-			
+
 			.colorbox-magnifier {
 				width: 12px; height: 12px;
 				position: absolute;
