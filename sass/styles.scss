@@ -3,6 +3,7 @@
 @import "bootstrap-custom";
 @import "compass/css3";
 @import "compass/typography/text/replacement";
+@import "components/components";
 
 .menu-block-wrapper {margin-top:20px;}
 
@@ -26,7 +27,7 @@
 .logged-in #bg-image {top:39px;}
 .logged-in.navbar-tray-open #bg-image {top:79px;}
 
-// branding 
+// branding
 .branding {
 	margin: 20px 0;
 	.phoneno {
@@ -84,11 +85,11 @@
 	padding: 1em 0;
 	border-top: 1px solid $gray-lighter;
 	color: $gray-light;
-	
+
 	a {color: $gray-light; text-decoration: underline;}
-	
+
 	img.map {border:4px solid #d5d5d5;}
-	
+
 	h2,h3,h4,h5.h6 {margin-top: 0;}
 }
 
@@ -116,7 +117,7 @@ legend {
 	.help-block {margin-bottom: 6px;}
 }
 
-// frontpage tweaks 
+// frontpage tweaks
 
 .node-frontpage .field-long-title {margin: 1em 0;}
 .page-home {
@@ -143,5 +144,5 @@ legend {
 		.pane-azori-ads-panel-pane-2 .pane-content {float: right;}
 		.banner-small {margin-bottom: 15px;}
 	}
-	
+
 }
