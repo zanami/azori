@@ -28,7 +28,10 @@
 		.modal-throbber-wrapper .img-responsive {
 			display: inline;
 		}
-
+		
+		.form-control.form-text {max-width:100%;}
+		.form-control.form-textarea {height: auto;}
+		
     .form-actions {
       margin-top: 1em;
       border-top: 0px solid #eee;
